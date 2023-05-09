@@ -1,2 +1,1 @@
-# yoga
-cfg yoga website
+# cfg-yoga

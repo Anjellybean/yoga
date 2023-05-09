@@ -55,11 +55,22 @@ body, html {
     border-radius: 2px;
     border-style: hidden;
     box-shadow: none
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+  
   }
 
   .my-btn:hover{
     background-color: #aec8d0;
     transition: 0.8s
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
 
   }
 
@@ -74,6 +85,7 @@ body, html {
 .carousel div img { 
   max-width:70% ;
   max-height:70%;
+  padding-bottom: 200px;
   width:auto;
   margin: auto; 
   box-sizing:border-box;
@@ -98,8 +110,9 @@ body, html {
 .main-p{
   text-align: center;
   color:orange;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-bottom: 50px;
   line-height: 1.8;
   
 }
@@ -119,12 +132,21 @@ body, html {
   align-items: center;
   float: left;
   font-size: large;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
 }
 
 .class-btn:hover{
   background-color: #aec8d0;
   transition: 0.8s
-
+  background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
 }
 
 .center {
@@ -132,6 +154,7 @@ body, html {
   margin-left: auto;
   margin-right: auto;
   padding-top: 20px;
+  padding-bottom: 50px;
   width: 40%;
   bottom: 10px;
 }
@@ -169,4 +192,42 @@ body, html {
   line-height: 1.8;
 }
 
+.contact-btn{
+  background-color: orange ;
+  color: beige;
+  padding: 7px;
+  margin-right: 200px;
+  margin-left: 300px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  border-radius: 2px;
+  border-style: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  font-size: large;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+.contact-btn:hover{
+  background-color: #aec8d0;
+  transition: 0.8s
+  background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.footer{
+  text-align: center;
+  padding: 20px 0;
+  background-color: #aec8d0;
+  color: white;
+}
 
